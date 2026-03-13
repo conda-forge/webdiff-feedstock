@@ -1,5 +1,5 @@
 {% set name = "webdiff" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/webdiff-{{ version }}.tar.gz
-  sha256: f8304c52fe435cc7f06e193a31bec2da91ec4c7bcc5cb5a361eaa0201ef4ca16
+  sha256: a3f60a666cf4676ddb9e1b0023997512752b9e87d258ccbfcfde75b98c705d05
 
 build:
   entry_points:
